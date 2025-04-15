@@ -15,12 +15,13 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   },
   {
     id: 2,
-    question: "How long have you been in business?",
+    question: "What brings you the most joy on a journey?",
     options: [
-      "Just starting out",
-      "1-3 years",
-      "4-10 years",
-      "More than 10 years"
+      "Finding new trails to hike, complete with a stunning view",
+      "Getting lost and experiencing the unexpected is what it's all about!",
+      "Relaxing in a luxurious setting. I deserve it!",
+      "Discovering the lesser-known part of town and mingling with locals",
+      "Leaving the trip with more knowledge and interesting facts"
     ],
     type: "single-choice"
   },
