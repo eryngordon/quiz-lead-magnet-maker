@@ -1,15 +1,15 @@
-
 import { QuizQuestion } from "@/types/quiz";
 
 export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 1,
-    question: "What is your main business goal?",
+    question: "In your wildest travel dreams you imagine yourself...",
     options: [
-      "Increase brand awareness",
-      "Generate more leads",
-      "Boost sales revenue",
-      "Improve customer retention"
+      "Hiking the rugged terrain on the Incan Trail to catch the sunrise in Machu Picchu",
+      "An all-inclusive resort where the water is warm and the cocktails don't stop",
+      "Happening upon a colorful hostel with a vegan cafe in the village your bus pit-stopped. It wasn't on the agenda but you decide to stay",
+      "Meandering through the historical ruins of an ancient city and imagining its active heyday",
+      "Browsing one-of-a-kind antiques in a traditional market"
     ],
     type: "single-choice"
   },
