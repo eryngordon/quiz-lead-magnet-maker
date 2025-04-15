@@ -1,49 +1,12 @@
-
 import React from "react";
 import { QuizProgress } from "./QuizProgress";
 import { QuizQuestion } from "./QuizQuestion";
 import { EmailForm } from "./EmailForm";
-import type { QuizQuestion as QuizQuestionType, QuizState } from "@/types/quiz";
+import type { QuizState } from "@/types/quiz";
 import { addSubscriber } from "@/lib/convertkit";
 import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
-
-// Example questions - you can customize these
-const QUIZ_QUESTIONS: QuizQuestionType[] = [
-  {
-    id: 1,
-    question: "What's your biggest challenge with digital marketing?",
-    options: [
-      "Getting more traffic",
-      "Converting visitors to leads",
-      "Creating content consistently",
-      "Managing social media",
-    ],
-    type: "single-choice",
-  },
-  {
-    id: 2,
-    question: "What's your current marketing budget?",
-    options: [
-      "Less than $1,000/month",
-      "$1,000 - $5,000/month",
-      "$5,000 - $10,000/month",
-      "More than $10,000/month",
-    ],
-    type: "single-choice",
-  },
-  {
-    id: 3,
-    question: "Which marketing channels are you currently using?",
-    options: [
-      "Social Media",
-      "Email Marketing",
-      "Content Marketing",
-      "Paid Advertising",
-    ],
-    type: "multiple-choice",
-  },
-];
+import { QUIZ_QUESTIONS } from "@/data/quizQuestions";
 
 const CONVERTKIT_FORM_ID = "YOUR_FORM_ID";
 const CONVERTKIT_API_KEY = "YOUR_API_KEY";
