@@ -36,32 +36,32 @@ const DESTINATIONS = {
   kyoto: {
     destination: "Greece",
     image: "/lovable-uploads/photo-1469474968028-56623f02e42e",
-    description: "Greece, the cradle of Western civilization, offers a perfect blend of ancient history and Mediterranean beauty. From the iconic Acropolis in Athens to the sun-drenched islands of the Aegean Sea, Greece invites you to explore its rich cultural heritage, stunning landscapes, and warm hospitality. Walk in the footsteps of philosophers, discover whitewashed villages clinging to cliffs, and immerse yourself in a cuisine celebrated worldwide for its freshness and flavor.",
-    quote: "In ancient Greece, one of the rules of rhetoric was that you should always tell your audience exactly what you're going to prove and how you're going to prove it.",
-    quoteAuthor: "Greta Thunberg",
+    description: "Slow life, slow travels. Time moves at its own pace on the Greek islands. You work hard all year so you can splurge and spoil yourself in tropical locales or exotic destinations. Your vacations often start in the first class lounge. After the bags are checked, and you order a cocktail, you feel the stress melt away. A few visits to the spa are booked before you've stepped foot on the property. And no trip would be complete without adding new pieces to your jewelry collection! It's hard to pull yourself away from the perfectly manicured gardens and pools, let alone the white sandy beach, but you have to add a plan for a luxury bus tour of the area! And sure, you love a cultural adventure... as long as there's a little opulence to take in!",
+    quote: "It takes a lifetime to discover Greece, but it only takes an instant to fall in love with her.",
+    quoteAuthor: "Henry Miller",
     features: [
-      "Ancient Ruins",
+      "Luxury Accommodations",
       "Island Hopping",
-      "Mediterranean Cuisine",
+      "Gourmet Cuisine",
       "Azure Beaches",
-      "Vibrant Local Culture",
-      "Mythological Heritage"
+      "Spa Retreats",
+      "Cultural Excursions"
     ],
     tips: [
       {
-        title: "Navigate Greece Like a Local",
-        description: "Greece offers much more than just its famous sites. Our newsletter subscribers receive exclusive walking routes through authentic neighborhoods and hidden coastal paths that reveal Greece's true character beyond the tourist crowds.",
+        title: "Learn how to be a better traveler every month!",
+        description: "We send out a newsletter once a month to authentic travelers. It's your secret power when it comes to finding hidden gems, accessing travel tips from locals, and information on how to become a better traveler. Better travel experiences for you, better stewardship to the places you visit. We call that a win-win-win, and all of it is free!",
       },
       {
-        title: "Island Hopping Essentials",
-        description: "With over 6,000 islands (though only 227 are inhabited), choosing where to go can be overwhelming. Our Greece Island Guide helps you select the perfect islands based on your interests, whether you seek nightlife, tranquility, history, or breathtaking landscapes.",
+        title: "Access the Hidden Gems of Athens!",
+        description: "Athens is a stunning example of history, art, and culture--you'll be roaming through the city and find significant landmarks almost everywhere you look. But just like every other large city, it can be hard to find the hidden gems or discern the difference between a local favorite and a tourist trap. Luckily, we made a map for you so you can take out the guesswork! Our Athens Map has a complete list of scenic viewpoints, museums, and locally-owned restaurants, along with the monuments, both big and small. Explore Athens Like a Local.",
       },
       {
-        title: "Essential Greek Experiences",
-        description: "Enhance your journey with our guides to 'Navigating Greek Food Culture', 'Ancient Site Exploration Beyond the Acropolis', and 'Finding Authentic Greek Celebrations Throughout the Year'.",
+        title: "Blogs to get you started",
+        description: "A, B, C",
       }
     ],
-    newsletterText: "Discover the Greece that exists beyond guidebooks. Join our newsletter for insider access to this timeless Mediterranean treasure!",
+    newsletterText: "Let us guide you to the Greece that exists beyond guidebooks. Join our newsletter for insider access to the country's hidden treasures!",
   },
   paris: {
     destination: "Paris, France",
