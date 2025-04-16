@@ -3,6 +3,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
+import { useNavigate } from "react-router-dom";
 
 interface EmailFormProps {
   onSubmit: (email: string) => void;
@@ -11,8 +12,9 @@ interface EmailFormProps {
 export const EmailForm: React.FC<EmailFormProps> = ({ onSubmit }) => {
   const [email, setEmail] = React.useState("");
   const { toast } = useToast();
+  const navigate = useNavigate();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !email.includes("@")) {
       toast({
@@ -22,7 +24,17 @@ export const EmailForm: React.FC<EmailFormProps> = ({ onSubmit }) => {
       });
       return;
     }
-    onSubmit(email);
+    
+    try {
+      await onSubmit(email);
+      navigate("/results/florence");
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to submit your email. Please try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   return (
@@ -42,7 +54,7 @@ export const EmailForm: React.FC<EmailFormProps> = ({ onSubmit }) => {
           className="w-full"
         />
         <Button type="submit" className="w-full">
-          Get My Results
+          Thanks! Send me to the results
         </Button>
       </div>
     </form>
