@@ -4,6 +4,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 1,
     question: "In your wildest travel dreams you imagine yourself...",
+    image: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800&auto=format&fit=crop&q=60",
     options: [
       "Hiking the rugged terrain on the Incan Trail to catch the sunrise in Machu Picchu",
       "An all-inclusive resort where the water is warm and the cocktails don't stop",
@@ -16,6 +17,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 2,
     question: "What brings you the most joy on a journey?",
+    image: "https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?w=800&auto=format&fit=crop&q=60",
     options: [
       "Finding new trails to hike, complete with a stunning view",
       "Getting lost and experiencing the unexpected is what it's all about!",
@@ -28,6 +30,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 3,
     question: "You're in a crowded street market, what catches your eye?",
+    image: "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=800&auto=format&fit=crop&q=60",
     options: [
       "There's a guy holding a brochure selling rock climbing day trips",
       "An exotic jewelry shop up ahead stocked with glimmering gold and fine gems. I have to have a piece to add to my collection!",
@@ -40,6 +43,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 4,
     question: "Which of the following travel quotes inspire you?",
+    image: "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=800&auto=format&fit=crop&q=60",
     options: [
       "\"Do not follow where the path may lead. Go instead where there is no path and leave a trail.\" Ralph Waldo Emerson",
       "\"There are some people who live in a dream world, and there are some who face reality; and then there are those who turn one into the other.\" Douglas H. Everett",
@@ -52,6 +56,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 5,
     question: "You've just arrived at your destination. What's the first thing on your itinerary?",
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&auto=format&fit=crop&q=60",
     options: [
       "A hot shower and a nap. Immediately.",
       "A walk around the block to scope out the neighborhood.",
@@ -64,6 +69,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 6,
     question: "Of all the places you could go, which would you choose first?",
+    image: "https://images.unsplash.com/photo-1494783367193-149034c05e8f?w=800&auto=format&fit=crop&q=60",
     options: [
       "I'd like to trek around Indonesia. Traveling light and meeting like minded trekkers is my passion.",
       "A once in a lifetime river cruise starting in Amsterdam and coursing through Europe.",
@@ -76,6 +82,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 7,
     question: "When you're planning a trip what is your primary consideration?",
+    image: "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=800&auto=format&fit=crop&q=60",
     options: [
       "Everything is planned out on an agenda and there's no unwanted surprises.",
       "I need to stay connected, WiFi, cell service, and easy transportation are a must.",
@@ -88,6 +95,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 8,
     question: "Which Icon inspires you to go on adventures?",
+    image: "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=800&auto=format&fit=crop&q=60",
     options: [
       "Harrison Ford as Indiana Jones.",
       "Elizabeth Taylor in 'Night of the Iguana'. Tropical glamour set in 1960's Puerto Vallarta, Mexico.",
