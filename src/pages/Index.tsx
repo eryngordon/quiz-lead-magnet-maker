@@ -17,7 +17,9 @@ const Index = () => {
             Where you should travel based on your personality type
           </h1>
           <p className="text-xl text-gray-600">
-            Discover your perfect travel style in just 3 minutes
+            The world is wide and the days are limited. That leaves only one question: where should you go next? 
+
+This quiz will tell you where to go based on personality!
           </p>
         </div>
         <div className="bg-white rounded-xl shadow-sm p-6">
