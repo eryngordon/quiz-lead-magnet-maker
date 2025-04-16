@@ -66,9 +66,9 @@ const DESTINATIONS = {
   paris: {
     destination: "Paris, France",
     image: "/lovable-uploads/5568ce0c-1442-4c26-bc7d-93692a1cccca.png",
-    description: "Paris, the City of Light, captivates with its timeless blend of art, cuisine, and architecture. From the iconic Eiffel Tower to the historic streets of Montmartre, Paris invites you to savor life's pleasures. The city's museums hold artistic treasures spanning centuries, while charming cafés and bistros serve as second homes to locals and visitors alike. Each neighborhood tells its own story, whether you're exploring the bohemian Latin Quarter or strolling along the romantic Seine riverbanks.",
-    quote: "To know Paris is to know a great deal of the world.",
-    quoteAuthor: "Henry Miller",
+    description: "You're all about the finer things in life. Now it's time to set off to the marathon city of the world. You rarely make plans that don't leave room for the unknown and meeting other wanderers is always a bonus. You're a rare soul that isn't put off by your own fearful thinking, you might feel the fear now and then but you certainly don't let it stop you from wild adventure. You love happening upon cafe patios with groups of like-minded travelers to hang with. You travel light so you can easily pivot if a new direction presents itself. You live by the motto, \"plan, but don't plan the outcome\". From eclectic hostels to lavish hotels, you love it all as long as you're exploring.",
+    quote: "The world is a book and those who do not travel read only one page.",
+    quoteAuthor: "Saint Augustine",
     features: [
       "Iconic Architecture",
       "World-Class Museums",
@@ -79,12 +79,12 @@ const DESTINATIONS = {
     ],
     tips: [
       {
-        title: "Discover Paris Beyond the Monuments",
-        description: "While the Eiffel Tower and Notre Dame are must-sees, Paris truly reveals itself in its neighborhoods. Our subscribers receive curated walking routes through areas like Canal Saint-Martin and Belleville, where you'll discover local haunts, street art, and the authentic Paris that many tourists miss.",
+        title: "Learn how to be a better traveler every month!",
+        description: "We send out a newsletter once a month to authentic travelers. It's your secret power when it comes to finding hidden gems, accessing travel tips from locals, and information on how to become a better traveler. Better travel experiences for you, better stewardship to the places you visit. We call that a win-win-win, and all of it is free!",
       },
       {
-        title: "Navigate Paris Like a Local",
-        description: "Paris is a walking city, but knowing when to use the Metro can save time and energy. Our Paris Map features insider tips on transportation, hidden passages (passages couverts), and lesser-known museums where you can escape the crowds while experiencing extraordinary art and history.",
+        title: "Access the Hidden Gems of Paris!",
+        description: "Paris is a stunning example of history, art, and culture--you'll be roaming through the city and find significant landmarks almost everywhere you look. But just like every other large city, it can be hard to find the hidden gems or discern the difference between a local favorite and a tourist trap. Luckily, we made a map for you so you can take out the guesswork! Our Paris Map has a complete list of scenic viewpoints, museums, and locally-owned restaurants, along with the monuments, both big and small.",
       },
       {
         title: "Essential Paris Experiences",
