@@ -1,3 +1,4 @@
+
 import { QuizQuestion } from "@/types/quiz";
 
 export const QUIZ_QUESTIONS: QuizQuestion[] = [
@@ -60,5 +61,18 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
       "A quick trip to the traditional market to scope out the souvenirs!"
     ],
     type: "single-choice"
+  },
+  {
+    id: 6,
+    question: "Of all the places you could go, which would you choose first?",
+    options: [
+      "I'd like to trek around Indonesia. Traveling light and meeting like minded trekkers is my passion.",
+      "A once in a lifetime river cruise starting in Amsterdam and coursing through Europe.",
+      "A drive down the West coast of the USA to tackle some rock climbing and kite surfing on the Pacific.",
+      "Costa Rica is appealing to me because of it's eco-friendly approach to travel.",
+      "Wearing a kimono, sipping tea, and experiencing cultural immersion with a geisha in the historic Gion District of Kyoto."
+    ],
+    type: "single-choice"
   }
 ];
+
