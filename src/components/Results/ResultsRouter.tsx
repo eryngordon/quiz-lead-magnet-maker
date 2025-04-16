@@ -93,18 +93,18 @@ const DESTINATIONS = {
     newsletterText: "Let us guide you to the Paris that exists beyond guidebooks. Join our newsletter for insider access to the city's hidden treasures!",
   },
   patagonia: {
-    destination: "Seoul, South Korea",
+    destination: "South Korea",
     image: "/lovable-uploads/photo-1486718448742-163732cd1544.png",
-    description: "Seoul is where ancient traditions dance with cutting-edge technology. As a traveler who craves both urban excitement and cultural depth, you'll find yourself navigating a city that pulses with innovation while preserving its rich historical roots. From the neon-lit streets of Gangnam to the serene temples of Jongno, Seoul offers a sensory journey that challenges your perceptions and expands your understanding of modern Asia.",
-    quote: "Seoul is a city of endless discovery, where every alleyway tells a story and every moment is an adventure waiting to unfold.",
-    quoteAuthor: "Unknown",
+    description: "Hey there, wayfaring wanderer. You want to discover the authentic side of town. Get ready for a culturally immersive experience in South Korea! \n\nYou're someone who lives for your next hike whether it's a weekend jaunt to a nearby park or a far away, once-in-a-lifetime mountain. It's all about those breath-taking views and you'll scale any incline to see them. You're something of a bird watcher and wildlife sightings are a definite bonus but it's the people you meet along the way that mark your memories.",
+    quote: "At the end of hardship comes happiness.",
+    quoteAuthor: "Korean Proverb",
     features: [
-      "Technological Innovation",
-      "Historic Temples",
-      "Street Food Culture",
-      "Modern Architecture",
-      "K-Pop and Entertainment",
-      "Traditional Markets"
+      "Mountain Landscapes",
+      "Cultural Hiking Experiences", 
+      "Wildlife Observation",
+      "Local Interactions",
+      "Diverse Terrain",
+      "Historical Trails"
     ],
     tips: [
       {
@@ -112,15 +112,15 @@ const DESTINATIONS = {
         description: "We send out a newsletter once a month to authentic travelers. It's your secret power when it comes to finding hidden gems, accessing travel tips from locals, and information on how to become a better traveler. Better travel experiences for you, better stewardship to the places you visit. We call that a win-win-win, and all of it is free!",
       },
       {
-        title: "Access the Hidden Gems of Seoul!",
-        description: "Seoul is a stunning example of history, art, and culture--you'll be roaming through the city and find significant landmarks almost everywhere you look. But just like every other large city, it can be hard to find the hidden gems or discern the difference between a local favorite and a tourist trap. Luckily, we made a map for you so you can take out the guesswork! Our Seoul Map has a complete list of scenic viewpoints, markets, street food locations, and locally-owned restaurants, along with the monuments, both big and small.",
+        title: "Check out my YouTube channel",
+        description: "I've been vlogging every trip I've taken for 15 years, it's all here mostly unedited. Embarrassing blunders, jaw dropping sites, crazy bus rides with chickens on board, and ancient architecture. You will be entertained to say the least! You'll get loads of inspiration for places you haven't even considered visiting before now!",
       },
       {
-        title: "Essential Seoul Experiences",
-        description: "Make the most of your journey with our guides: 'Navigating Seoul's Street Food Scene', 'Traditional Markets vs. Modern Shopping Districts', and 'K-Pop and Korean Entertainment Insider Tips'.",
+        title: "Essential South Korea Experiences",
+        description: "Make the most of your journey with our guides: 'Mountain Trails of South Korea', 'Hidden Cultural Spots Beyond Seoul', and 'Wildlife Photography in Korean National Parks'.",
       }
     ],
-    newsletterText: "Seoul is waiting to reveal its secrets. Join our community and unlock the hidden layers of this dynamic city!",
+    newsletterText: "Discover the authentic side of South Korea through the eyes of a true wanderer. Join our community and unlock the secrets of this fascinating country!",
   },
   morocco: {
     destination: "Morocco",
