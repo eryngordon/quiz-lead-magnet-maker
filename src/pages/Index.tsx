@@ -14,7 +14,7 @@ const Index = () => {
             />
           </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Travel Style Quiz
+            Where you should travel based on your personality type
           </h1>
           <p className="text-xl text-gray-600">
             Discover your perfect travel style in just 3 minutes
