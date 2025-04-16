@@ -3,7 +3,7 @@ import { QuizContainer } from "@/components/Quiz/QuizContainer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-gray-50 py-12 font-playfair">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
           <div className="rounded-xl overflow-hidden mb-8">

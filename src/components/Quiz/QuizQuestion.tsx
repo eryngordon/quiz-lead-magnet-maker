@@ -15,7 +15,7 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
   selectedAnswer,
 }) => {
   return (
-    <div className="space-y-6 animate-in fade-in slide-in-from-bottom duration-500">
+    <div className="space-y-6 animate-in fade-in slide-in-from-bottom duration-500 font-playfair">
       <h2 className="text-2xl font-semibold text-gray-900">{question.question}</h2>
       <div className="grid gap-3">
         {question.options.map((option) => (
