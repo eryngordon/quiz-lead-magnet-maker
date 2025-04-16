@@ -1,9 +1,9 @@
-
 export type QuizQuestion = {
   id: number;
   question: string;
   options: string[];
   type: 'multiple-choice' | 'single-choice';
+  image: string;
 };
 
 export type QuizState = {

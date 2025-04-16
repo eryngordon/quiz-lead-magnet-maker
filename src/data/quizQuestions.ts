@@ -1,10 +1,11 @@
+
 import { QuizQuestion } from "@/types/quiz";
 
 export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 1,
     question: "In your wildest travel dreams you imagine yourself...",
-    image: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800&auto=format&fit=crop&q=60",
+    image: "/lovable-uploads/3c20af29-6bc7-45eb-b6c0-2dabae92f53b.png",
     options: [
       "Hiking the rugged terrain on the Incan Trail to catch the sunrise in Machu Picchu",
       "An all-inclusive resort where the water is warm and the cocktails don't stop",
@@ -17,7 +18,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 2,
     question: "What brings you the most joy on a journey?",
-    image: "https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?w=800&auto=format&fit=crop&q=60",
+    image: "/lovable-uploads/8c0d1aa9-d022-43c8-829a-8aab3faf39b3.png",
     options: [
       "Finding new trails to hike, complete with a stunning view",
       "Getting lost and experiencing the unexpected is what it's all about!",
@@ -30,7 +31,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 3,
     question: "You're in a crowded street market, what catches your eye?",
-    image: "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=800&auto=format&fit=crop&q=60",
+    image: "/lovable-uploads/c907a6c6-3056-4dc9-b73b-297ee93f8a2a.png",
     options: [
       "There's a guy holding a brochure selling rock climbing day trips",
       "An exotic jewelry shop up ahead stocked with glimmering gold and fine gems. I have to have a piece to add to my collection!",
@@ -43,7 +44,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 4,
     question: "Which of the following travel quotes inspire you?",
-    image: "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=800&auto=format&fit=crop&q=60",
+    image: "/lovable-uploads/caf175c4-b2e0-49e8-a147-77a6a07a2ed2.png",
     options: [
       "\"Do not follow where the path may lead. Go instead where there is no path and leave a trail.\" Ralph Waldo Emerson",
       "\"There are some people who live in a dream world, and there are some who face reality; and then there are those who turn one into the other.\" Douglas H. Everett",

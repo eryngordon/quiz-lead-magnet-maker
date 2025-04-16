@@ -16,6 +16,15 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
 }) => {
   return (
     <div className="space-y-6 animate-in fade-in slide-in-from-bottom duration-500 font-playfair">
+      {question.image && (
+        <div className="rounded-xl overflow-hidden mb-6">
+          <img
+            src={question.image}
+            alt={question.question}
+            className="w-full h-64 object-cover"
+          />
+        </div>
+      )}
       <h2 className="text-2xl font-semibold text-gray-900">{question.question}</h2>
       <div className="grid gap-3">
         {question.options.map((option) => (
