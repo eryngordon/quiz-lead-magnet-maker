@@ -156,9 +156,9 @@ const DESTINATIONS = {
   peru: {
     destination: "Peru",
     image: "/lovable-uploads/b6a20972-a5b2-44bf-ab20-9734ef0b86a3.png",
-    description: "Peru captivates travelers with its extraordinary blend of ancient civilizations, dramatic Andean landscapes, and vibrant cultural traditions. From the mystical ruins of Machu Picchu to the biodiverse Amazon rainforest and the stunning Sacred Valley, Peru offers an adventure that spans thousands of years of human history and some of Earth's most varied ecosystems. Experience the living culture of indigenous communities, savor world-renowned cuisine that has revolutionized gastronomy, and trek along ancient pathways that once formed the backbone of the mighty Inca Empire.",
-    quote: "Peru is a country with more than 5,000 years of history and traditions, a megadiverse country where every corner tells a different story.",
-    quoteAuthor: "Mario Testino",
+    description: "The likes of Sir Edmond Hillary, Sir David Attenborough, and Jacques Cousteu are your constant inspiration. You're looking for raw, gritty, risk-taking experiences. You started dreaming of vagabond rambling at an early age. You live in the moment and view every corner as a wondrous opportunity. You've crossed off many an adrenaline inducing destination from your list. In fact, the whole reason you travel is to push the boundaries of your skills and capabilities to see what your body and mind are capable of. No matter the profound peaks you've scaled or death defying depths you've dived, you're always looking toward the next challenge...",
+    quote: "The word that most perfectly describes the city of Cusco is evocative. Intangible dust of another era settles on its streets, rising like the disturbed sediment of a muddy lake when you touch its bottom.",
+    quoteAuthor: "Ernesto Che Guevara",
     features: [
       "Ancient Inca Ruins",
       "Andean Mountain Landscapes",
@@ -169,12 +169,12 @@ const DESTINATIONS = {
     ],
     tips: [
       {
-        title: "Altitude Acclimation Secrets",
-        description: "The Andes present a genuine challenge for many travelers. Our subscribers receive our exclusive guide to altitude acclimation, including little-known local remedies, recommended acclimation itineraries, and emergency preparation advice from high-altitude medical experts.",
+        title: "Learn how to be a better traveler every month!",
+        description: "We send out a newsletter once a month to authentic travelers. It's your secret power when it comes to finding hidden gems, accessing travel tips from locals, and information on how to become a better traveler. Better travel experiences for you, better stewardship to the places you visit. We call that a win-win-win, and all of it is free!",
       },
       {
-        title: "Beyond Machu Picchu",
-        description: "While Machu Picchu deserves its fame, Peru offers countless archaeological wonders without the crowds. Our expert guides share detailed itineraries to sites like Choquequirao, Kuelap, and Chan Chan where you'll often have ancient ruins almost entirely to yourself.",
+        title: "Access the Hidden Gems of Cusco!",
+        description: "Cusco is a stunning example of history, art, and culture--you'll be roaming through the city and find significant landmarks almost everywhere you look. But just like every other large city, it can be hard to find the hidden gems or discern the difference between a local favorite and a tourist trap. Luckily, we made a map for you so you can take out the guesswork! Our Cusco Map has a complete list of scenic viewpoints, museums, and locally-owned restaurants, along with the monuments, both big and small.",
       },
       {
         title: "Essential Peru Preparations",
@@ -191,6 +191,11 @@ interface ResultsRouterProps {
 
 export const ResultsRouter: React.FC<ResultsRouterProps> = ({ destination }) => {
   const destinationData = DESTINATIONS[destination];
+  
+  // Pass a special title prop for Peru
+  if (destination === "peru") {
+    return <ResultPage {...destinationData} customTitle="Buckle up, you're off to Peru!" />;
+  }
   
   return <ResultPage {...destinationData} />;
 };
