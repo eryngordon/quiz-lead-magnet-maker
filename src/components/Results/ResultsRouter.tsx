@@ -33,6 +33,126 @@ const DESTINATIONS = {
     ],
     newsletterText: "Join our community of passionate travelers and unlock the secrets of authentic travel experiences. Sign up now and transform your next journey!",
   },
+  kyoto: {
+    destination: "Kyoto, Japan",
+    image: "/lovable-uploads/c907a6c6-3056-4dc9-b73b-297ee93f8a2a.png",
+    description: "Kyoto, the cultural heart of Japan, offers a perfect blend of ancient traditions and natural beauty. With over 1,600 Buddhist temples, 400 Shinto shrines, and 17 UNESCO World Heritage sites, this former imperial capital invites you to step back in time while experiencing the refined elegance of Japanese culture. From the golden pavilion of Kinkaku-ji to the bamboo groves of Arashiyama, Kyoto captures the essence of wabi-sabi – finding beauty in imperfection and transience.",
+    quote: "In Kyoto, time flows with the rhythm of the seasons, and beauty is found in the spaces between moments.",
+    quoteAuthor: "Pico Iyer",
+    features: [
+      "Ancient Temples",
+      "Traditional Gardens",
+      "Tea Ceremony Culture",
+      "Seasonal Festivals",
+      "Traditional Craftsmanship",
+      "Culinary Excellence"
+    ],
+    tips: [
+      {
+        title: "Navigate Kyoto Like a Local",
+        description: "Kyoto's grid system makes it navigable, but the city's true essence lies in its backstreets. Our newsletter subscribers receive exclusive walking routes that connect major sites through atmospheric neighborhoods tourists rarely discover.",
+      },
+      {
+        title: "Experience Kyoto's Changing Seasons",
+        description: "Each season transforms Kyoto into a different world. Spring brings cherry blossoms, summer offers vibrant festivals, autumn delivers fiery maple leaves, and winter cloaks temples in snow. Plan your visit according to these seasonal spectacles using our detailed calendar guide.",
+      },
+      {
+        title: "Essential Kyoto Experiences",
+        description: "Don't miss our guides to 'Staying in a Traditional Ryokan', 'Navigating Kyoto's Temple Etiquette', and 'Finding Authentic Matcha Experiences Beyond Tourist Spots'.",
+      }
+    ],
+    newsletterText: "Discover hidden Kyoto through the eyes of locals and seasoned travelers. Our newsletter brings you insider tips and seasonal highlights!",
+  },
+  santorini: {
+    destination: "Santorini, Greece",
+    image: "/lovable-uploads/8c0d1aa9-d022-43c8-829a-8aab3faf39b3.png",
+    description: "Santorini rises dramatically from the Aegean Sea, its iconic white-washed buildings with blue domes cascading down volcanic cliffs. This Greek island is actually a caldera – the result of one of history's largest volcanic eruptions. Today, it offers a perfect blend of natural wonder, ancient history, and luxurious relaxation. From black sand beaches to archaeological treasures at Akrotiri, Santorini combines Mediterranean charm with breathtaking vistas that make it a photographer's paradise.",
+    quote: "Santorini is the perfect marriage of what makes Greece a dream destination: sun-drenched landscapes, gleaming white architecture, and a rich history layered with myths and legends.",
+    quoteAuthor: "Anthony Bourdain",
+    features: [
+      "Dramatic Caldera Views",
+      "Sunset in Oia",
+      "Ancient Archaeological Sites",
+      "Volcanic Beaches",
+      "Local Wine Culture",
+      "Cycladic Architecture"
+    ],
+    tips: [
+      {
+        title: "Beyond the Crowds",
+        description: "While Oia sunset crowds are legendary, our subscribers receive a map of equally stunning viewpoints where you can enjoy Santorini's famous sunset with breathing room. Perfect for photography enthusiasts who want that iconic shot without the photobombers.",
+      },
+      {
+        title: "Santorini's Hidden Beaches",
+        description: "Skip the packed beaches of Kamari and Perissa. Our local guides share directions to secluded coves accessible only by foot or boat, where you can experience the unique volcanic landscapes in peaceful solitude.",
+      },
+      {
+        title: "Essential Santorini Reads",
+        description: "Prepare for your trip with our guides: 'Understanding Santorini's Volcanic History', 'Island-Hopping from Santorini', and 'The Local Cuisine: Beyond Greek Salad and Souvlaki'.",
+      }
+    ],
+    newsletterText: "Let us guide you through Santorini's hidden corners and secret spots that most travelers miss. Sign up for insider knowledge!",
+  },
+  patagonia: {
+    destination: "Patagonia, Argentina & Chile",
+    image: "/lovable-uploads/acd47713-f7fa-45d4-84e4-610d986dc09a.png",
+    description: "Patagonia, straddling Argentina and Chile at the southern tip of South America, is nature at its most dramatically untamed. This vast wilderness region encompasses the jagged peaks of Torres del Paine, the otherworldly Perito Moreno Glacier, and windswept grasslands stretching to the horizon. Home to resilient wildlife like guanacos, pumas, and Andean condors, Patagonia offers adventures ranging from world-class hiking and climbing to peaceful fly fishing in pristine waters.",
+    quote: "In Patagonia, you feel force of the earth still at work - raw, dynamic, and utterly indifferent to human presence.",
+    quoteAuthor: "Bruce Chatwin",
+    features: [
+      "Epic Mountain Landscapes",
+      "Advancing Glaciers",
+      "Diverse Wildlife",
+      "Remote Wilderness",
+      "Adventure Trekking",
+      "Pristine National Parks"
+    ],
+    tips: [
+      {
+        title: "Preparing for Patagonian Weather",
+        description: "Patagonia's weather can shift dramatically within hours. Our subscribers receive a comprehensive packing guide covering all seasons, with specific advice on layering techniques and gear recommendations from seasoned Patagonia guides.",
+      },
+      {
+        title: "Lesser-Known Trekking Routes",
+        description: "While the W Trek in Torres del Paine gets all the glory, our local experts have mapped equally spectacular routes with a fraction of the foot traffic. Gain access to detailed trail maps and logistical advice for these hidden gems.",
+      },
+      {
+        title: "Essential Patagonia Resources",
+        description: "Prepare with our guides: 'Navigating the Argentina-Chile Border in Patagonia', 'Wildlife Photography Tips for Patagonian Conditions', and 'Supporting Conservation While Traveling in Fragile Ecosystems'.",
+      }
+    ],
+    newsletterText: "Patagonia's vastness can be overwhelming to plan. Let our expertise guide your adventure through one of Earth's last great wildernesses!",
+  },
+  morocco: {
+    destination: "Morocco",
+    image: "/lovable-uploads/6524a925-e80b-4782-96fe-8b8d48084059.png",
+    description: "Morocco offers a sensory feast where ancient traditions blend seamlessly with vibrant modernity. From the labyrinthine medinas of Fes and Marrakech to the towering dunes of the Sahara and the snow-capped Atlas Mountains, Morocco's diverse landscapes match its cultural richness. Berber, Arab, and French influences create a unique tapestry evident in the country's architecture, cuisine, and daily life. Here, the call to prayer mingles with market haggling and the aroma of spices to create an unforgettable North African experience.",
+    quote: "Morocco is a country whose magic casts its spell on the traveler in slow, subtle ways, working its way through all the senses.",
+    quoteAuthor: "Paul Bowles",
+    features: [
+      "Ancient Medinas",
+      "Sahara Desert Experience",
+      "Atlas Mountain Adventures",
+      "Rich Culinary Traditions",
+      "Vibrant Marketplaces",
+      "Architectural Wonders"
+    ],
+    tips: [
+      {
+        title: "Navigating Morocco's Medinas",
+        description: "The medieval maze-like medinas can be both captivating and confusing. Our subscribers receive detailed walking guides to Fes and Marrakech with unmapped shortcuts and recommendations for genuine artisan workshops beyond tourist traps.",
+      },
+      {
+        title: "Desert Experiences Worth the Journey",
+        description: "Skip the overcrowded desert camps close to Merzouga. Our Morocco specialists have scouted authentic desert experiences where you'll encounter traditional Berber culture and enjoy star-gazing from remote dunes far from light pollution.",
+      },
+      {
+        title: "Essential Moroccan Insights",
+        description: "Enhance your journey with our guides: 'Moroccan Hammam Etiquette', 'The Art of Mint Tea Ceremony', and 'Mountain Trekking: Meeting Berber Communities of the High Atlas'.",
+      }
+    ],
+    newsletterText: "Morocco's complexity deserves thoughtful navigation. Join our community for insights that transform your journey from tourist to traveler!",
+  },
 };
 
 interface ResultsRouterProps {
@@ -44,4 +164,3 @@ export const ResultsRouter: React.FC<ResultsRouterProps> = ({ destination }) => 
   
   return <ResultPage {...destinationData} />;
 };
-
