@@ -4,7 +4,7 @@ import { ResultPage } from "./ResultPage";
 const DESTINATIONS = {
   florence: {
     destination: "Florence, Italy",
-    image: "/lovable-uploads/ce172b94-12c8-4078-9ddb-0bcfae4d2a48.png",
+    image: "/lovable-uploads/dd8d3b51-537e-4238-9eca-e4792c13ce42.png",
     description: "Florence, the birthplace of the Renaissance, is a living museum where art, architecture, and history blend seamlessly with modern life. Its cobblestone streets, magnificent Duomo, and world-renowned galleries make it perfect for culture enthusiasts and history lovers who appreciate beauty in every form.",
     quote: "Florence is like a jewelry box full of exquisite artifacts – every corner you turn reveals another treasure.",
     quoteAuthor: "Dan Brown",
