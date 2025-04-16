@@ -101,7 +101,7 @@ export const ResultPage: React.FC<ResultPageProps> = ({
               Earth To Editorial is the digital place to find places you'll want to discover IRL. I'm Eryn, a travel journalist and fellow adventurer who's passionate about the 'local' experience. You'll probably find me hanging out at the local watering hole or slurping life-changing noodles in a sketchy joint. If that sounds like your kind of trip, then check out more of my guides on the platform!
             </p>
             <p className="text-[#12263a] font-semibold">
-              Until we meet to plan your next adventure,<br />
+              Until we meet again,<br />
               Eryn
             </p>
           </div>
