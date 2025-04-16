@@ -23,6 +23,7 @@ const App = () => (
           <Route path="/results/santorini" element={<ResultsRouter destination="santorini" />} />
           <Route path="/results/patagonia" element={<ResultsRouter destination="patagonia" />} />
           <Route path="/results/morocco" element={<ResultsRouter destination="morocco" />} />
+          <Route path="/results/peru" element={<ResultsRouter destination="peru" />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

@@ -153,6 +153,36 @@ const DESTINATIONS = {
     ],
     newsletterText: "Morocco's complexity deserves thoughtful navigation. Join our community for insights that transform your journey from tourist to traveler!",
   },
+  peru: {
+    destination: "Peru",
+    image: "/lovable-uploads/b6a20972-a5b2-44bf-ab20-9734ef0b86a3.png",
+    description: "Peru captivates travelers with its extraordinary blend of ancient civilizations, dramatic Andean landscapes, and vibrant cultural traditions. From the mystical ruins of Machu Picchu to the biodiverse Amazon rainforest and the stunning Sacred Valley, Peru offers an adventure that spans thousands of years of human history and some of Earth's most varied ecosystems. Experience the living culture of indigenous communities, savor world-renowned cuisine that has revolutionized gastronomy, and trek along ancient pathways that once formed the backbone of the mighty Inca Empire.",
+    quote: "Peru is a country with more than 5,000 years of history and traditions, a megadiverse country where every corner tells a different story.",
+    quoteAuthor: "Mario Testino",
+    features: [
+      "Ancient Inca Ruins",
+      "Andean Mountain Landscapes",
+      "Amazon Rainforest Biodiversity",
+      "World-Class Gastronomy",
+      "Living Indigenous Cultures",
+      "Sacred Valley Exploration"
+    ],
+    tips: [
+      {
+        title: "Altitude Acclimation Secrets",
+        description: "The Andes present a genuine challenge for many travelers. Our subscribers receive our exclusive guide to altitude acclimation, including little-known local remedies, recommended acclimation itineraries, and emergency preparation advice from high-altitude medical experts.",
+      },
+      {
+        title: "Beyond Machu Picchu",
+        description: "While Machu Picchu deserves its fame, Peru offers countless archaeological wonders without the crowds. Our expert guides share detailed itineraries to sites like Choquequirao, Kuelap, and Chan Chan where you'll often have ancient ruins almost entirely to yourself.",
+      },
+      {
+        title: "Essential Peru Preparations",
+        description: "Make the most of your journey with our guides: 'Sacred Valley Deep Dive', 'Navigating Lima's World-Class Food Scene', and 'Responsible Travel in Indigenous Communities'.",
+      }
+    ],
+    newsletterText: "Let us help you plan an unforgettable Peruvian adventure that goes beyond the tourist trail. Sign up for insider access to Peru's best-kept secrets!",
+  },
 };
 
 interface ResultsRouterProps {
