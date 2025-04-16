@@ -48,5 +48,17 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
       "\"I think food, culture, people, and landscape are all absolutely inseparable.\" Anthony Bourdain"
     ],
     type: "single-choice"
+  },
+  {
+    id: 5,
+    question: "You've just arrived at your destination. What's the first thing on your itinerary?",
+    options: [
+      "A hot shower and a nap. Immediately.",
+      "A walk around the block to scope out the neighborhood.",
+      "Reservations at a restaurant I booked weeks in advance.",
+      "Chat with the hotel receptionist for their favorite recommendations.",
+      "A quick trip to the traditional market to scope out the souvenirs!"
+    ],
+    type: "single-choice"
   }
 ];
