@@ -1,4 +1,3 @@
-
 import { QuizQuestion } from "@/types/quiz";
 
 export const QUIZ_QUESTIONS: QuizQuestion[] = [
@@ -85,6 +84,17 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
       "Being in a lively city with lots of art, music, restaurants, and activity is key."
     ],
     type: "single-choice"
+  },
+  {
+    id: 8,
+    question: "Which Icon inspires you to go on adventures?",
+    options: [
+      "Harrison Ford as Indiana Jones.",
+      "Elizabeth Taylor in 'Night of the Iguana'. Tropical glamour set in 1960's Puerto Vallarta, Mexico.",
+      "Lord of the Rings trilogy hero, Frodo Baggins on a quest for the golden ring.",
+      "Ben Stiller as Walter Mitty dons his backpack and sets off in search of the extraordinary after a life led quite ordinarily.",
+      "Julia Roberts as she rediscovers herself in Eat, Pray, Love"
+    ],
+    type: "single-choice"
   }
 ];
-
