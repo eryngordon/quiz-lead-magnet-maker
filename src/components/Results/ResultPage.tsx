@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
@@ -58,6 +59,22 @@ export const ResultPage: React.FC<ResultPageProps> = ({
                 {index + 1}. {tip.title}
               </h3>
               <p className="text-[#12263a]">{tip.description}</p>
+              
+              {/* Add the clickable image for the second tip (index 1) */}
+              {index === 1 && (
+                <a 
+                  href="https://www.earthtoeditorial.com/florence-map" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block mt-4 hover:opacity-90 transition-opacity"
+                >
+                  <img 
+                    src="/lovable-uploads/45f55bee-786f-428f-bc2f-630a12b31b19.png" 
+                    alt="Navigate new cities like a local" 
+                    className="w-full rounded-lg shadow-md"
+                  />
+                </a>
+              )}
             </div>
           ))}
         </div>
