@@ -1,3 +1,4 @@
+
 import { QuizContainer } from "@/components/Quiz/QuizContainer";
 
 const Index = () => {
@@ -7,8 +8,8 @@ const Index = () => {
         <div className="text-center mb-12">
           <div className="rounded-xl overflow-hidden mb-8">
             <img
-              src="/lovable-uploads/ed08b3ff-55b9-416e-8f63-fa77d41c02e6.png"
-              alt="Travel Quiz Header"
+              src="/lovable-uploads/b6a20972-a5b2-44bf-ab20-9734ef0b86a3.png"
+              alt="Travel Quiz Desert Landscape"
               className="w-full h-80 object-cover"
             />
           </div>
