@@ -1,4 +1,3 @@
-
 import { QuizContainer } from "@/components/Quiz/QuizContainer";
 
 const Index = () => {
@@ -29,4 +28,3 @@ const Index = () => {
 };
 
 export default Index;
-
