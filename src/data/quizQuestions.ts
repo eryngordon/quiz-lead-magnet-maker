@@ -73,6 +73,18 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
       "Wearing a kimono, sipping tea, and experiencing cultural immersion with a geisha in the historic Gion District of Kyoto."
     ],
     type: "single-choice"
+  },
+  {
+    id: 7,
+    question: "When you're planning a trip what is your primary consideration?",
+    options: [
+      "Everything is planned out on an agenda and there's no unwanted surprises.",
+      "I need to stay connected, WiFi, cell service, and easy transportation are a must.",
+      "That I'll be able to rent a car or have transportation to do lots of independent exploring.",
+      "A place that has a rich background and an interesting culture.",
+      "Being in a lively city with lots of art, music, restaurants, and activity is key."
+    ],
+    type: "single-choice"
   }
 ];
 
