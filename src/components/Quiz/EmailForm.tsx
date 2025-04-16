@@ -7,9 +7,10 @@ import { useNavigate } from "react-router-dom";
 
 interface EmailFormProps {
   onSubmit: (email: string) => void;
+  destination: string;
 }
 
-export const EmailForm: React.FC<EmailFormProps> = ({ onSubmit }) => {
+export const EmailForm: React.FC<EmailFormProps> = ({ onSubmit, destination }) => {
   const [email, setEmail] = React.useState("");
   const { toast } = useToast();
   const navigate = useNavigate();
@@ -27,7 +28,7 @@ export const EmailForm: React.FC<EmailFormProps> = ({ onSubmit }) => {
     
     try {
       await onSubmit(email);
-      navigate("/results/florence");
+      navigate(`/results/${destination}`);
     } catch (error) {
       toast({
         title: "Error",

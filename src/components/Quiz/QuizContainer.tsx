@@ -1,3 +1,4 @@
+
 import React from "react";
 import { QuizProgress } from "./QuizProgress";
 import { QuizQuestion } from "./QuizQuestion";
@@ -7,6 +8,7 @@ import { addSubscriber } from "@/lib/convertkit";
 import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
 import { QUIZ_QUESTIONS } from "@/data/quizQuestions";
+import { determineDestination } from "@/utils/quizUtils";
 
 const CONVERTKIT_FORM_ID = "YOUR_FORM_ID";
 const CONVERTKIT_API_KEY = "YOUR_API_KEY";
@@ -17,6 +19,7 @@ export const QuizContainer: React.FC = () => {
     answers: {},
     isComplete: false,
   });
+  const [recommendedDestination, setRecommendedDestination] = React.useState<string | null>(null);
   const { toast } = useToast();
 
   const handleAnswer = (answer: string) => {
@@ -32,6 +35,15 @@ export const QuizContainer: React.FC = () => {
       currentQuestion: prev.currentQuestion + 1,
     }));
   };
+
+  // Calculate the recommended destination when all questions are answered
+  React.useEffect(() => {
+    if (state.currentQuestion >= QUIZ_QUESTIONS.length) {
+      const destination = determineDestination(state.answers);
+      setRecommendedDestination(destination);
+      console.log("Recommended destination:", destination);
+    }
+  }, [state.currentQuestion, state.answers]);
 
   const handleEmailSubmit = async (email: string) => {
     try {
@@ -91,7 +103,7 @@ export const QuizContainer: React.FC = () => {
           )}
         </>
       )}
-      {showEmailForm && <EmailForm onSubmit={handleEmailSubmit} />}
+      {showEmailForm && <EmailForm onSubmit={handleEmailSubmit} destination={recommendedDestination || "florence"} />}
     </div>
   );
 };
