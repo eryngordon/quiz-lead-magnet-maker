@@ -20,7 +20,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/results/florence" element={<ResultsRouter destination="florence" />} />
           <Route path="/results/kyoto" element={<ResultsRouter destination="kyoto" />} />
-          <Route path="/results/santorini" element={<ResultsRouter destination="santorini" />} />
+          <Route path="/results/paris" element={<ResultsRouter destination="paris" />} />
           <Route path="/results/patagonia" element={<ResultsRouter destination="patagonia" />} />
           <Route path="/results/morocco" element={<ResultsRouter destination="morocco" />} />
           <Route path="/results/peru" element={<ResultsRouter destination="peru" />} />

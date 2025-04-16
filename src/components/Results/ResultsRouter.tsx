@@ -63,35 +63,35 @@ const DESTINATIONS = {
     ],
     newsletterText: "Discover hidden Kyoto through the eyes of locals and seasoned travelers. Our newsletter brings you insider tips and seasonal highlights!",
   },
-  santorini: {
-    destination: "Santorini, Greece",
-    image: "/lovable-uploads/8c0d1aa9-d022-43c8-829a-8aab3faf39b3.png",
-    description: "Santorini rises dramatically from the Aegean Sea, its iconic white-washed buildings with blue domes cascading down volcanic cliffs. This Greek island is actually a caldera – the result of one of history's largest volcanic eruptions. Today, it offers a perfect blend of natural wonder, ancient history, and luxurious relaxation. From black sand beaches to archaeological treasures at Akrotiri, Santorini combines Mediterranean charm with breathtaking vistas that make it a photographer's paradise.",
-    quote: "Santorini is the perfect marriage of what makes Greece a dream destination: sun-drenched landscapes, gleaming white architecture, and a rich history layered with myths and legends.",
-    quoteAuthor: "Anthony Bourdain",
+  paris: {
+    destination: "Paris, France",
+    image: "/lovable-uploads/5568ce0c-1442-4c26-bc7d-93692a1cccca.png",
+    description: "Paris, the City of Light, captivates with its timeless blend of art, cuisine, and architecture. From the iconic Eiffel Tower to the historic streets of Montmartre, Paris invites you to savor life's pleasures. The city's museums hold artistic treasures spanning centuries, while charming cafés and bistros serve as second homes to locals and visitors alike. Each neighborhood tells its own story, whether you're exploring the bohemian Latin Quarter or strolling along the romantic Seine riverbanks.",
+    quote: "To know Paris is to know a great deal of the world.",
+    quoteAuthor: "Henry Miller",
     features: [
-      "Dramatic Caldera Views",
-      "Sunset in Oia",
-      "Ancient Archaeological Sites",
-      "Volcanic Beaches",
-      "Local Wine Culture",
-      "Cycladic Architecture"
+      "Iconic Architecture",
+      "World-Class Museums",
+      "Culinary Excellence",
+      "Literary Heritage",
+      "Fashion Capital",
+      "Romantic Ambiance"
     ],
     tips: [
       {
-        title: "Beyond the Crowds",
-        description: "While Oia sunset crowds are legendary, our subscribers receive a map of equally stunning viewpoints where you can enjoy Santorini's famous sunset with breathing room. Perfect for photography enthusiasts who want that iconic shot without the photobombers.",
+        title: "Discover Paris Beyond the Monuments",
+        description: "While the Eiffel Tower and Notre Dame are must-sees, Paris truly reveals itself in its neighborhoods. Our subscribers receive curated walking routes through areas like Canal Saint-Martin and Belleville, where you'll discover local haunts, street art, and the authentic Paris that many tourists miss.",
       },
       {
-        title: "Santorini's Hidden Beaches",
-        description: "Skip the packed beaches of Kamari and Perissa. Our local guides share directions to secluded coves accessible only by foot or boat, where you can experience the unique volcanic landscapes in peaceful solitude.",
+        title: "Navigate Paris Like a Local",
+        description: "Paris is a walking city, but knowing when to use the Metro can save time and energy. Our Paris Map features insider tips on transportation, hidden passages (passages couverts), and lesser-known museums where you can escape the crowds while experiencing extraordinary art and history.",
       },
       {
-        title: "Essential Santorini Reads",
-        description: "Prepare for your trip with our guides: 'Understanding Santorini's Volcanic History', 'Island-Hopping from Santorini', and 'The Local Cuisine: Beyond Greek Salad and Souvlaki'.",
+        title: "Essential Paris Experiences",
+        description: "Enhance your journey with our guides to 'Paris's Secret Gardens', 'Finding the Best Patisseries in Every Arrondissement', and 'Literary Walking Tours: Following in the Footsteps of Hemingway and Fitzgerald'.",
       }
     ],
-    newsletterText: "Let us guide you through Santorini's hidden corners and secret spots that most travelers miss. Sign up for insider knowledge!",
+    newsletterText: "Let us guide you to the Paris that exists beyond guidebooks. Join our newsletter for insider access to the city's hidden treasures!",
   },
   patagonia: {
     destination: "Patagonia, Argentina & Chile",

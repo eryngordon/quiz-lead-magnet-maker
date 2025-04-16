@@ -15,6 +15,7 @@ interface ResultPageProps {
     description: string;
   }[];
   newsletterText: string;
+  customTitle?: string;
 }
 
 export const ResultPage: React.FC<ResultPageProps> = ({
@@ -26,12 +27,13 @@ export const ResultPage: React.FC<ResultPageProps> = ({
   features,
   tips,
   newsletterText,
+  customTitle,
 }) => {
   return (
     <div className="max-w-4xl mx-auto p-6 bg-[#ebe0d3] min-h-screen">
       <div className="text-center space-y-6 mb-12">
         <h1 className="text-3xl font-bold text-[#12263a]">
-          Pack your bags! Your next destination should be {destination}
+          {customTitle || `Pack your bags! Your next destination should be ${destination}`}
         </h1>
         
         <img
