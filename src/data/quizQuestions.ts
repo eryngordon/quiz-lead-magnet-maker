@@ -57,7 +57,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 5,
     question: "You've just arrived at your destination. What's the first thing on your itinerary?",
-    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&auto=format&fit=crop&q=60",
+    image: "/lovable-uploads/5568ce0c-1442-4c26-bc7d-93692a1cccca.png",
     options: [
       "A hot shower and a nap. Immediately.",
       "A walk around the block to scope out the neighborhood.",
@@ -70,7 +70,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 6,
     question: "Of all the places you could go, which would you choose first?",
-    image: "https://images.unsplash.com/photo-1494783367193-149034c05e8f?w=800&auto=format&fit=crop&q=60",
+    image: "/lovable-uploads/6524a925-e80b-4782-96fe-8b8d48084059.png",
     options: [
       "I'd like to trek around Indonesia. Traveling light and meeting like minded trekkers is my passion.",
       "A once in a lifetime river cruise starting in Amsterdam and coursing through Europe.",
@@ -83,7 +83,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 7,
     question: "When you're planning a trip what is your primary consideration?",
-    image: "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=800&auto=format&fit=crop&q=60",
+    image: "/lovable-uploads/0b75d6a9-0fee-4107-b962-af167b962264.png",
     options: [
       "Everything is planned out on an agenda and there's no unwanted surprises.",
       "I need to stay connected, WiFi, cell service, and easy transportation are a must.",
@@ -96,7 +96,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 8,
     question: "Which Icon inspires you to go on adventures?",
-    image: "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=800&auto=format&fit=crop&q=60",
+    image: "/lovable-uploads/acd47713-f7fa-45d4-84e4-610d986dc09a.png",
     options: [
       "Harrison Ford as Indiana Jones.",
       "Elizabeth Taylor in 'Night of the Iguana'. Tropical glamour set in 1960's Puerto Vallarta, Mexico.",
@@ -107,3 +107,4 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     type: "single-choice"
   }
 ];
+
