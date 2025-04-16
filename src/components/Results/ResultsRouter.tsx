@@ -1,3 +1,4 @@
+
 import React from "react";
 import { ResultPage } from "./ResultPage";
 
@@ -23,7 +24,7 @@ const DESTINATIONS = {
       },
       {
         title: "Access Hidden Gems of Florence",
-        description: "Florence is a stunning example of history, art, and culture--you'll be roaming through the city and find significant landmarks almost everywhere you look. Our Florence Map has a complete list of scenic viewpoints, museums, and locally-owned restaurants, along with the monuments, both big and small. Explore Florence Like a Local.",
+        description: "Florence is a stunning example of history, art, and cultural advancement--you'll be roaming through the city and find significant landmarks almost everywhere you look. Our Florence Map has a complete list of scenic viewpoints, museums, and locally-owned restaurants, along with the monuments, both big and small. Explore Florence Like a Local.",
       },
       {
         title: "Essential Blogs to Get Started",
@@ -33,34 +34,34 @@ const DESTINATIONS = {
     newsletterText: "Join our community of passionate travelers and unlock the secrets of authentic travel experiences. Sign up now and transform your next journey!",
   },
   kyoto: {
-    destination: "Kyoto, Japan",
-    image: "/lovable-uploads/c907a6c6-3056-4dc9-b73b-297ee93f8a2a.png",
-    description: "Kyoto, the cultural heart of Japan, offers a perfect blend of ancient traditions and natural beauty. With over 1,600 Buddhist temples, 400 Shinto shrines, and 17 UNESCO World Heritage sites, this former imperial capital invites you to step back in time while experiencing the refined elegance of Japanese culture. From the golden pavilion of Kinkaku-ji to the bamboo groves of Arashiyama, Kyoto captures the essence of wabi-sabi – finding beauty in imperfection and transience.",
-    quote: "In Kyoto, time flows with the rhythm of the seasons, and beauty is found in the spaces between moments.",
-    quoteAuthor: "Pico Iyer",
+    destination: "Greece",
+    image: "/lovable-uploads/photo-1469474968028-56623f02e42e",
+    description: "Greece, the cradle of Western civilization, offers a perfect blend of ancient history and Mediterranean beauty. From the iconic Acropolis in Athens to the sun-drenched islands of the Aegean Sea, Greece invites you to explore its rich cultural heritage, stunning landscapes, and warm hospitality. Walk in the footsteps of philosophers, discover whitewashed villages clinging to cliffs, and immerse yourself in a cuisine celebrated worldwide for its freshness and flavor.",
+    quote: "In ancient Greece, one of the rules of rhetoric was that you should always tell your audience exactly what you're going to prove and how you're going to prove it.",
+    quoteAuthor: "Greta Thunberg",
     features: [
-      "Ancient Temples",
-      "Traditional Gardens",
-      "Tea Ceremony Culture",
-      "Seasonal Festivals",
-      "Traditional Craftsmanship",
-      "Culinary Excellence"
+      "Ancient Ruins",
+      "Island Hopping",
+      "Mediterranean Cuisine",
+      "Azure Beaches",
+      "Vibrant Local Culture",
+      "Mythological Heritage"
     ],
     tips: [
       {
-        title: "Navigate Kyoto Like a Local",
-        description: "Kyoto's grid system makes it navigable, but the city's true essence lies in its backstreets. Our newsletter subscribers receive exclusive walking routes that connect major sites through atmospheric neighborhoods tourists rarely discover.",
+        title: "Navigate Greece Like a Local",
+        description: "Greece offers much more than just its famous sites. Our newsletter subscribers receive exclusive walking routes through authentic neighborhoods and hidden coastal paths that reveal Greece's true character beyond the tourist crowds.",
       },
       {
-        title: "Experience Kyoto's Changing Seasons",
-        description: "Each season transforms Kyoto into a different world. Spring brings cherry blossoms, summer offers vibrant festivals, autumn delivers fiery maple leaves, and winter cloaks temples in snow. Plan your visit according to these seasonal spectacles using our detailed calendar guide.",
+        title: "Island Hopping Essentials",
+        description: "With over 6,000 islands (though only 227 are inhabited), choosing where to go can be overwhelming. Our Greece Island Guide helps you select the perfect islands based on your interests, whether you seek nightlife, tranquility, history, or breathtaking landscapes.",
       },
       {
-        title: "Essential Kyoto Experiences",
-        description: "Don't miss our guides to 'Staying in a Traditional Ryokan', 'Navigating Kyoto's Temple Etiquette', and 'Finding Authentic Matcha Experiences Beyond Tourist Spots'.",
+        title: "Essential Greek Experiences",
+        description: "Enhance your journey with our guides to 'Navigating Greek Food Culture', 'Ancient Site Exploration Beyond the Acropolis', and 'Finding Authentic Greek Celebrations Throughout the Year'.",
       }
     ],
-    newsletterText: "Discover hidden Kyoto through the eyes of locals and seasoned travelers. Our newsletter brings you insider tips and seasonal highlights!",
+    newsletterText: "Discover the Greece that exists beyond guidebooks. Join our newsletter for insider access to this timeless Mediterranean treasure!",
   },
   paris: {
     destination: "Paris, France",
