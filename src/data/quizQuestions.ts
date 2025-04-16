@@ -27,13 +27,14 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   },
   {
     id: 3,
-    question: "What type of marketing support do you need?",
+    question: "You're in a crowded street market, what catches your eye?",
     options: [
-      "Strategy and planning",
-      "Content creation",
-      "Advertising management",
-      "Analytics and reporting"
+      "There's a guy holding a brochure selling rock climbing day trips",
+      "An exotic jewelry shop up ahead stocked with glimmering gold and fine gems. I have to have a piece to add to my collection!",
+      "A group of musicians jamming out some folk tunes, I think I'll join in with my bad singing",
+      "A vendor grilling something that smells divine. street food. Let's go have a taste of everything",
+      "A table of antiques, specifically a golden jewelry box from the last century!"
     ],
-    type: "multiple-choice"
+    type: "single-choice"
   }
 ];
