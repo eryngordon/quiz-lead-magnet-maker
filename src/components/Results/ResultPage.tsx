@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
@@ -71,6 +70,16 @@ export const ResultPage: React.FC<ResultPageProps> = ({
           >
             Get the newsletter
           </Button>
+          
+          <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
+            <p className="text-[#12263a] italic mb-4">
+              Earth To Editorial is the digital place to find places you'll want to discover IRL. I'm Eryn, a travel journalist and fellow adventurer who's passionate about the 'local' experience. You'll probably find me hanging out at the local watering hole or slurping life-changing noodles in a sketchy joint. If that sounds like your kind of trip, then check out more of my guides on the platform!
+            </p>
+            <p className="text-[#12263a] font-semibold">
+              Until we meet to plan your next adventure,<br />
+              Eryn
+            </p>
+          </div>
         </div>
       </div>
     </div>
