@@ -8,7 +8,7 @@ const Index = () => {
         <div className="text-center mb-12">
           <div className="rounded-xl overflow-hidden mb-8">
             <img
-              src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop&q=60"
+              src="/lovable-uploads/ed08b3ff-55b9-416e-8f63-fa77d41c02e6.png"
               alt="Travel Quiz Header"
               className="w-full h-80 object-cover"
             />
@@ -29,3 +29,4 @@ const Index = () => {
 };
 
 export default Index;
+
