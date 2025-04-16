@@ -71,6 +71,12 @@ export const ResultPage: React.FC<ResultPageProps> = ({
             Get the newsletter
           </Button>
           
+          <img 
+            src="/lovable-uploads/3f56fb22-61e7-4565-bbab-19b4d7b3b3d9.png" 
+            alt="Travel Adventure" 
+            className="w-full h-[400px] object-cover rounded-lg shadow-lg mt-8"
+          />
+          
           <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
             <p className="text-[#12263a] italic mb-4">
               Earth To Editorial is the digital place to find places you'll want to discover IRL. I'm Eryn, a travel journalist and fellow adventurer who's passionate about the 'local' experience. You'll probably find me hanging out at the local watering hole or slurping life-changing noodles in a sketchy joint. If that sounds like your kind of trip, then check out more of my guides on the platform!
