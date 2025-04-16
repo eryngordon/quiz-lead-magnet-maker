@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ResultPage } from "./ResultPage";
 
@@ -94,34 +93,34 @@ const DESTINATIONS = {
     newsletterText: "Let us guide you to the Paris that exists beyond guidebooks. Join our newsletter for insider access to the city's hidden treasures!",
   },
   patagonia: {
-    destination: "Patagonia, Argentina & Chile",
-    image: "/lovable-uploads/acd47713-f7fa-45d4-84e4-610d986dc09a.png",
-    description: "Patagonia, straddling Argentina and Chile at the southern tip of South America, is nature at its most dramatically untamed. This vast wilderness region encompasses the jagged peaks of Torres del Paine, the otherworldly Perito Moreno Glacier, and windswept grasslands stretching to the horizon. Home to resilient wildlife like guanacos, pumas, and Andean condors, Patagonia offers adventures ranging from world-class hiking and climbing to peaceful fly fishing in pristine waters.",
-    quote: "In Patagonia, you feel force of the earth still at work - raw, dynamic, and utterly indifferent to human presence.",
-    quoteAuthor: "Bruce Chatwin",
+    destination: "Seoul, South Korea",
+    image: "/lovable-uploads/photo-1486718448742-163732cd1544.png",
+    description: "Seoul is where ancient traditions dance with cutting-edge technology. As a traveler who craves both urban excitement and cultural depth, you'll find yourself navigating a city that pulses with innovation while preserving its rich historical roots. From the neon-lit streets of Gangnam to the serene temples of Jongno, Seoul offers a sensory journey that challenges your perceptions and expands your understanding of modern Asia.",
+    quote: "Seoul is a city of endless discovery, where every alleyway tells a story and every moment is an adventure waiting to unfold.",
+    quoteAuthor: "Unknown",
     features: [
-      "Epic Mountain Landscapes",
-      "Advancing Glaciers",
-      "Diverse Wildlife",
-      "Remote Wilderness",
-      "Adventure Trekking",
-      "Pristine National Parks"
+      "Technological Innovation",
+      "Historic Temples",
+      "Street Food Culture",
+      "Modern Architecture",
+      "K-Pop and Entertainment",
+      "Traditional Markets"
     ],
     tips: [
       {
-        title: "Preparing for Patagonian Weather",
-        description: "Patagonia's weather can shift dramatically within hours. Our subscribers receive a comprehensive packing guide covering all seasons, with specific advice on layering techniques and gear recommendations from seasoned Patagonia guides.",
+        title: "Learn how to be a better traveler every month!",
+        description: "We send out a newsletter once a month to authentic travelers. It's your secret power when it comes to finding hidden gems, accessing travel tips from locals, and information on how to become a better traveler. Better travel experiences for you, better stewardship to the places you visit. We call that a win-win-win, and all of it is free!",
       },
       {
-        title: "Lesser-Known Trekking Routes",
-        description: "While the W Trek in Torres del Paine gets all the glory, our local experts have mapped equally spectacular routes with a fraction of the foot traffic. Gain access to detailed trail maps and logistical advice for these hidden gems.",
+        title: "Access the Hidden Gems of Seoul!",
+        description: "Seoul is a stunning example of history, art, and culture--you'll be roaming through the city and find significant landmarks almost everywhere you look. But just like every other large city, it can be hard to find the hidden gems or discern the difference between a local favorite and a tourist trap. Luckily, we made a map for you so you can take out the guesswork! Our Seoul Map has a complete list of scenic viewpoints, markets, street food locations, and locally-owned restaurants, along with the monuments, both big and small.",
       },
       {
-        title: "Essential Patagonia Resources",
-        description: "Prepare with our guides: 'Navigating the Argentina-Chile Border in Patagonia', 'Wildlife Photography Tips for Patagonian Conditions', and 'Supporting Conservation While Traveling in Fragile Ecosystems'.",
+        title: "Essential Seoul Experiences",
+        description: "Make the most of your journey with our guides: 'Navigating Seoul's Street Food Scene', 'Traditional Markets vs. Modern Shopping Districts', and 'K-Pop and Korean Entertainment Insider Tips'.",
       }
     ],
-    newsletterText: "Patagonia's vastness can be overwhelming to plan. Let our expertise guide your adventure through one of Earth's last great wildernesses!",
+    newsletterText: "Seoul is waiting to reveal its secrets. Join our community and unlock the hidden layers of this dynamic city!",
   },
   morocco: {
     destination: "Morocco",
@@ -192,7 +191,6 @@ interface ResultsRouterProps {
 export const ResultsRouter: React.FC<ResultsRouterProps> = ({ destination }) => {
   const destinationData = DESTINATIONS[destination];
   
-  // Pass a special title prop for Peru
   if (destination === "peru") {
     return <ResultPage {...destinationData} customTitle="Buckle up, you're off to Peru!" />;
   }
