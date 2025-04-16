@@ -36,5 +36,17 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
       "A table of antiques, specifically a golden jewelry box from the last century!"
     ],
     type: "single-choice"
+  },
+  {
+    id: 4,
+    question: "Which of the following travel quotes inspire you?",
+    options: [
+      "\"Do not follow where the path may lead. Go instead where there is no path and leave a trail.\" Ralph Waldo Emerson",
+      "\"There are some people who live in a dream world, and there are some who face reality; and then there are those who turn one into the other.\" Douglas H. Everett",
+      "\"Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.\" Mark Twain",
+      "\"I travel not to go anywhere, but to go. I travel for travel's sake. The great affair is to move.\" Robert Louis Stevenson",
+      "\"I think food, culture, people, and landscape are all absolutely inseparable.\" Anthony Bourdain"
+    ],
+    type: "single-choice"
   }
 ];
