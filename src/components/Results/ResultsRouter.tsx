@@ -1,3 +1,4 @@
+
 import React from "react";
 import { ResultPage } from "./ResultPage";
 
@@ -5,34 +6,33 @@ const DESTINATIONS = {
   florence: {
     destination: "Florence, Italy",
     image: "/lovable-uploads/dd8d3b51-537e-4238-9eca-e4792c13ce42.png",
-    description: "Florence, the birthplace of the Renaissance, is a living museum where art, architecture, and history blend seamlessly with modern life. Its cobblestone streets, magnificent Duomo, and world-renowned galleries make it perfect for culture enthusiasts and history lovers who appreciate beauty in every form.",
-    quote: "Florence is like a jewelry box full of exquisite artifacts – every corner you turn reveals another treasure.",
-    quoteAuthor: "Dan Brown",
+    description: "Florence, also known as the cradle of the Italian Renaissance, is the intersection of literature, art, and cultural advancement. You're passionate about culture and history, so it's no wonder that you should visit Florence, Italy! The city was founded by Julius Caesar in 59 BC, and its original purpose was to become a military colony. That is, until the Italian Renaissance, when Florence became the hotbed for artistic expression and a geographical shake-up for the status quo.",
+    quote: "In Paris, you learn wit, in London you learn to crush your social rivals, and in Florence you learn poise.",
+    quoteAuthor: "Virgil Thompson",
     features: [
-      "Renaissance Art & Architecture",
-      "World-Class Museums",
-      "Tuscan Cuisine",
-      "Historic Landmarks",
-      "Fashion & Shopping",
-      "Authentic Italian Culture"
+      "Renaissance Heritage",
+      "Artistic Landmarks",
+      "Historical Significance",
+      "Cultural Transformation",
+      "Literary Influence",
+      "Architectural Marvels"
     ],
     tips: [
       {
-        title: "Best Time to Visit Florence",
-        description: "Visit during spring (April-May) or fall (September-October) for ideal weather and fewer tourists. These shoulder seasons offer comfortable temperatures and the chance to explore without the summer crowds.",
+        title: "Learn to be a Better Traveler",
+        description: "We send out a newsletter once a month to authentic travelers. It's your secret power when it comes to finding hidden gems, accessing travel tips from locals, and information on how to become a better traveler. Better travel experiences for you, better stewardship to the places you visit.",
       },
       {
-        title: "Must-See Hidden Gems",
-        description: "While the Uffizi and Duomo are must-visits, don't miss the serene Bardini Gardens, the less-crowded Basilica of Santa Croce, and the artisan workshops in the Oltrarno district.",
+        title: "Access Hidden Gems of Florence",
+        description: "Florence is a stunning example of history, art, and culture--you'll be roaming through the city and find significant landmarks almost everywhere you look. Our Florence Map has a complete list of scenic viewpoints, museums, and locally-owned restaurants, along with the monuments, both big and small. Explore Florence Like a Local.",
       },
       {
-        title: "Local Food Experiences",
-        description: "Beyond the famous restaurants, explore the Sant'Ambrogio Market for local products, try street food like lampredotto, and join cooking classes to master Tuscan classics.",
+        title: "Essential Blogs to Get Started",
+        description: "Dive into our curated content: '5-Day Florence and Tuscany Itinerary', 'The Essential Guide to Italian Culture', and 'The Sagre: 10 Local Festivals You Can't Miss in Italy'.",
       }
     ],
-    newsletterText: "Want more insider tips about Florence? Join our newsletter for monthly updates on secret spots, local events, and authentic experiences!",
+    newsletterText: "Join our community of passionate travelers and unlock the secrets of authentic travel experiences. Sign up now and transform your next journey!",
   },
-  // Add other destinations here following the same structure
 };
 
 interface ResultsRouterProps {
@@ -44,3 +44,4 @@ export const ResultsRouter: React.FC<ResultsRouterProps> = ({ destination }) => 
   
   return <ResultPage {...destinationData} />;
 };
+
