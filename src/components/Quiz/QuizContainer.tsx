@@ -1,4 +1,3 @@
-
 import React from "react";
 import { QuizProgress } from "./QuizProgress";
 import { QuizQuestion } from "./QuizQuestion";
@@ -36,7 +35,6 @@ export const QuizContainer: React.FC = () => {
     }));
   };
 
-  // Calculate the recommended destination when all questions are answered
   React.useEffect(() => {
     if (state.currentQuestion >= QUIZ_QUESTIONS.length) {
       const destination = determineDestination(state.answers);
@@ -45,11 +43,12 @@ export const QuizContainer: React.FC = () => {
     }
   }, [state.currentQuestion, state.answers]);
 
-  const handleEmailSubmit = async (email: string) => {
+  const handleEmailSubmit = async (email: string, gdprConsent: boolean) => {
     try {
       await addSubscriber(CONVERTKIT_FORM_ID, CONVERTKIT_API_KEY, {
         email,
         fields: state.answers,
+        gdpr_consent: gdprConsent
       });
       setState((prev) => ({ ...prev, email, isComplete: true }));
       toast({

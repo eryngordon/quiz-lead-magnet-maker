@@ -4,6 +4,7 @@ const CONVERTKIT_API_URL = 'https://api.convertkit.com/v3';
 interface SubscriberData {
   email: string;
   fields?: Record<string, string>;
+  gdpr_consent?: boolean;
 }
 
 export async function addSubscriber(
@@ -19,7 +20,10 @@ export async function addSubscriber(
     body: JSON.stringify({
       api_key: apiKey,
       email: data.email,
-      fields: data.fields,
+      fields: {
+        ...data.fields,
+        gdpr_consent: data.gdpr_consent ? 'yes' : 'no'
+      },
     }),
   });
 
