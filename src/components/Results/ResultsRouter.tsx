@@ -34,7 +34,7 @@ const DESTINATIONS = {
   },
   kyoto: {
     destination: "Greece",
-    image: "/lovable-uploads/photo-1469474968028-56623f02e42e",
+    image: "/lovable-uploads/c0909fb3-cee9-4ed9-8d0a-23614d76f2c9.png",
     description: "Slow life, slow travels. Time moves at its own pace on the Greek islands. You work hard all year so you can splurge and spoil yourself in tropical locales or exotic destinations. Your vacations often start in the first class lounge. After the bags are checked, and you order a cocktail, you feel the stress melt away. A few visits to the spa are booked before you've stepped foot on the property. And no trip would be complete without adding new pieces to your jewelry collection! It's hard to pull yourself away from the perfectly manicured gardens and pools, let alone the white sandy beach, but you have to add a plan for a luxury bus tour of the area! And sure, you love a cultural adventure... as long as there's a little opulence to take in!",
     quote: "It takes a lifetime to discover Greece, but it only takes an instant to fall in love with her.",
     quoteAuthor: "Henry Miller",
