@@ -124,7 +124,7 @@ const DESTINATIONS = {
   },
   morocco: {
     destination: "Morocco",
-    image: "/lovable-uploads/6524a925-e80b-4782-96fe-8b8d48084059.png",
+    image: "/lovable-uploads/5644b4f4-ff43-464a-92e2-abbbc2d0bbb9.png",
     description: "Morocco offers a sensory feast where ancient traditions blend seamlessly with vibrant modernity. From the labyrinthine medinas of Fes and Marrakech to the towering dunes of the Sahara and the snow-capped Atlas Mountains, Morocco's diverse landscapes match its cultural richness. Berber, Arab, and French influences create a unique tapestry evident in the country's architecture, cuisine, and daily life. Here, the call to prayer mingles with market haggling and the aroma of spices to create an unforgettable North African experience.",
     quote: "Morocco is a country whose magic casts its spell on the traveler in slow, subtle ways, working its way through all the senses.",
     quoteAuthor: "Paul Bowles",
