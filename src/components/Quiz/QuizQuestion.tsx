@@ -35,10 +35,10 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
           <Button
             key={option}
             variant={selectedAnswer === option ? "default" : "quizHover"}
-            className="w-full text-left justify-start p-4 h-auto"
+            className="w-full text-left justify-start p-4 h-auto min-h-[3.5rem] whitespace-normal line-clamp-2"
             onClick={() => onAnswer(option)}
           >
-            {option}
+            <span className="break-words">{option}</span>
           </Button>
         ))}
       </div>
