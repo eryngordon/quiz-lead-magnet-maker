@@ -64,7 +64,7 @@ const DESTINATIONS = {
   },
   paris: {
     destination: "Paris, France",
-    image: "/lovable-uploads/04d42936-952d-4e5d-bba3-588b87b81d8d.png",
+    image: "/lovable-uploads/c5716763-cd87-4aaa-9dc3-06eb401acfd3.png",
     description: "You're all about the finer things in life. Now it's time to set off to the marathon city of the world. You rarely make plans that don't leave room for the unknown and meeting other wanderers is always a bonus. You're a rare soul that isn't put off by your own fearful thinking, you might feel the fear now and then but you certainly don't let it stop you from wild adventure. You love happening upon cafe patios with groups of like-minded travelers to hang with. You travel light so you can easily pivot if a new direction presents itself. You live by the motto, \"plan, but don't plan the outcome\". From eclectic hostels to lavish hotels, you love it all as long as you're exploring.",
     quote: "The world is a book and those who do not travel read only one page.",
     quoteAuthor: "Saint Augustine",
