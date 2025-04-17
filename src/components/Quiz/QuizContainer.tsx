@@ -1,17 +1,14 @@
+
 import React from "react";
 import { QuizProgress } from "./QuizProgress";
 import { QuizQuestion } from "./QuizQuestion";
 import { EmailForm } from "./EmailForm";
 import type { QuizState } from "@/types/quiz";
-import { addSubscriber } from "@/lib/convertkit";
 import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
 import { QUIZ_QUESTIONS } from "@/data/quizQuestions";
 import { determineDestination } from "@/utils/quizUtils";
-import { env } from "@/lib/env";
-
-const CONVERTKIT_FORM_ID = "YOUR_FORM_ID";
-const CONVERTKIT_API_KEY = "YOUR_API_KEY";
+import { supabase } from "@/integrations/supabase/client";
 
 export const QuizContainer: React.FC = () => {
   const [state, setState] = React.useState<QuizState>({
@@ -46,17 +43,23 @@ export const QuizContainer: React.FC = () => {
 
   const handleEmailSubmit = async (email: string, gdprConsent: boolean) => {
     try {
-      await addSubscriber(env.VITE_CONVERTKIT_FORM_ID, env.VITE_CONVERTKIT_API_KEY, {
-        email,
-        fields: state.answers,
-        gdpr_consent: gdprConsent
+      const { data, error } = await supabase.functions.invoke('subscribe-convertkit', {
+        body: {
+          email,
+          fields: state.answers,
+          gdpr_consent: gdprConsent
+        }
       });
+
+      if (error) throw error;
+
       setState((prev) => ({ ...prev, email, isComplete: true }));
       toast({
         title: "Success!",
         description: "Your results have been sent to your email.",
       });
     } catch (error) {
+      console.error('Error subscribing to newsletter:', error);
       toast({
         title: "Error",
         description: "Failed to submit your results. Please try again.",

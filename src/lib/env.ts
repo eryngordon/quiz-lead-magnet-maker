@@ -1,5 +1,4 @@
 
 export const env = {
-  VITE_CONVERTKIT_FORM_ID: import.meta.env.VITE_CONVERTKIT_FORM_ID || '',
-  VITE_CONVERTKIT_API_KEY: import.meta.env.VITE_CONVERTKIT_API_KEY || '',
+  // Empty for now - we'll add any future frontend environment variables here
 };
