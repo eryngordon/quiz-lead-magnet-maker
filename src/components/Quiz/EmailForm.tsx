@@ -85,7 +85,7 @@ export const EmailForm: React.FC<EmailFormProps> = ({ onSubmit, destination }) =
           </label>
         </div>
         <Button type="submit" className="w-full">
-          Thanks! Send me to the results
+          Reveal my next travel destination
         </Button>
       </div>
     </form>
