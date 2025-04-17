@@ -94,7 +94,7 @@ const DESTINATIONS = {
   },
   patagonia: {
     destination: "South Korea",
-    image: "/lovable-uploads/photo-1486718448742-163732cd1544.png",
+    image: "/lovable-uploads/1ed49ddb-1a53-45c0-8215-ac037c601aa1.png",
     description: "Hey there, wayfaring wanderer. You want to discover the authentic side of town. Get ready for a culturally immersive experience in South Korea! \n\nYou're someone who lives for your next hike whether it's a weekend jaunt to a nearby park or a far away, once-in-a-lifetime mountain. It's all about those breath-taking views and you'll scale any incline to see them. You're something of a bird watcher and wildlife sightings are a definite bonus but it's the people you meet along the way that mark your memories.",
     quote: "At the end of hardship comes happiness.",
     quoteAuthor: "Korean Proverb",
