@@ -8,6 +8,7 @@ import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
 import { QUIZ_QUESTIONS } from "@/data/quizQuestions";
 import { determineDestination } from "@/utils/quizUtils";
+import { env } from "@/lib/env";
 
 const CONVERTKIT_FORM_ID = "YOUR_FORM_ID";
 const CONVERTKIT_API_KEY = "YOUR_API_KEY";
@@ -45,7 +46,7 @@ export const QuizContainer: React.FC = () => {
 
   const handleEmailSubmit = async (email: string, gdprConsent: boolean) => {
     try {
-      await addSubscriber(CONVERTKIT_FORM_ID, CONVERTKIT_API_KEY, {
+      await addSubscriber(env.VITE_CONVERTKIT_FORM_ID, env.VITE_CONVERTKIT_API_KEY, {
         email,
         fields: state.answers,
         gdpr_consent: gdprConsent
