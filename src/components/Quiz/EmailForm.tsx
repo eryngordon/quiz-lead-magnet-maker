@@ -2,7 +2,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
 import { useNavigate } from "react-router-dom";
 
@@ -66,24 +65,20 @@ export const EmailForm: React.FC<EmailFormProps> = ({ onSubmit, destination }) =
           className="w-full"
         />
         <div className="flex items-start space-x-2">
-          <Checkbox
+          <input
+            type="checkbox"
             id="gdpr-consent"
             checked={gdprConsent}
-            onCheckedChange={(checked) => setGdprConsent(checked as boolean)}
-            className="mt-1"
+            onChange={(e) => setGdprConsent(e.target.checked)}
+            className="mt-1 mr-2"
           />
           <label htmlFor="gdpr-consent" className="text-sm text-gray-600">
-            I agree to receive email communications and accept the{" "}
-            <a 
-              href="/privacy-policy" 
-              target="_blank" 
-              className="text-blue-600 hover:underline"
-            >
-              privacy policy
-            </a>
-            . You can unsubscribe at any time. We respect your privacy and will never share your data with third parties.
+            I agree to receive email communications
           </label>
         </div>
+        <p className="text-xs text-gray-500 mt-2">
+          We respect your privacy and will never share your data with third parties. You can unsubscribe at any time.
+        </p>
         <Button type="submit" className="w-full">
           Reveal my next travel destination
         </Button>
@@ -91,3 +86,4 @@ export const EmailForm: React.FC<EmailFormProps> = ({ onSubmit, destination }) =
     </form>
   );
 };
+
