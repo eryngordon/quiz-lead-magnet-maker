@@ -25,7 +25,7 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
           />
         </div>
       )}
-      <h2 className="text-2xl font-semibold text-gray-900">{question.question}</h2>
+      <h2 className="text-2xl font-semibold text-gray-900 min-h-[4rem] line-clamp-2">{question.question}</h2>
       <div className="grid gap-3">
         {question.options.map((option) => (
           <Button
