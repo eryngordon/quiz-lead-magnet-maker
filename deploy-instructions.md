@@ -1,30 +1,33 @@
+
 # GitHub Pages Deployment Setup
 
-Add these scripts to your package.json:
-
-```json
-"scripts": {
-  "dev": "vite",
-  "build": "tsc && vite build",
-  "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-```
+The necessary packages are already installed in this project. Here's how to deploy:
 
 ## Deployment Steps
 
-1. Push your code to a GitHub repository
-2. Run `npm run deploy`
-3. Enable GitHub Pages in your repository settings:
+1. **Push your code to GitHub**:
+   - Create a repository on GitHub if you haven't already
+   - Push your code to the main branch
+
+2. **Run the deployment command**:
+   ```bash
+   npm run deploy
+   ```
+   
+   This command will:
+   - Build your application
+   - Push the built files to the gh-pages branch on GitHub
+
+3. **Enable GitHub Pages in your repository settings**:
    - Go to your repository on GitHub
    - Click on "Settings"
-   - Scroll down to "GitHub Pages"
-   - Select "gh-pages branch" as source
-   - Save
+   - Navigate to the "Pages" section in the sidebar
+   - Under "Source", select "Deploy from a branch"
+   - Select "gh-pages" as the branch and "/ (root)" as the folder
+   - Click "Save"
 
-Your site will be published at: https://[your-github-username].github.io/[repository-name]/
+4. **Access your deployed site**:
+   Your site will be published at: `https://[your-github-username].github.io/[repository-name]/`
 
 ## Embedding in WordPress
 
