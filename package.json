@@ -1,4 +1,8 @@
 {
+  "homepage": "https://eryngordon.github.io/quiz-lead-magnet-maker",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
@@ -81,10 +85,5 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
-    {
-  "homepage": "https://eryngordon.github.io/quiz-lead-magnet-maker",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
   }
 }
