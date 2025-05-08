@@ -3,6 +3,21 @@
 
 The necessary packages are already installed in this project. Here's how to deploy:
 
+## Important: Fix package.json First
+
+Before deploying, make sure your package.json file is correctly formatted:
+
+1. Open your package.json file
+2. Ensure it includes these properties at the top level:
+   ```json
+   "homepage": "https://[your-github-username].github.io/[your-repo-name]/",
+   ```
+3. Ensure your scripts section includes:
+   ```json
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist"
+   ```
+
 ## Deployment Steps
 
 1. **Push your code to GitHub**:
@@ -23,11 +38,11 @@ The necessary packages are already installed in this project. Here's how to depl
    - Click on "Settings"
    - Navigate to the "Pages" section in the sidebar
    - Under "Source", select "Deploy from a branch"
-   - Select "gh-pages" as the branch and "/ (root)" as the folder
+   - Select "gh-pages" as the branch (or "main" if gh-pages isn't available)
    - Click "Save"
 
 4. **Access your deployed site**:
-   Your site will be published at: `https://[your-github-username].github.io/[repository-name]/`
+   Your site will be published at: `https://[your-github-username].github.io/[your-repo-name]/`
 
 ## Embedding in WordPress
 
@@ -35,7 +50,7 @@ After deployment, add this iframe to your WordPress page:
 
 ```html
 <iframe 
-  src="https://[your-github-username].github.io/[repository-name]/" 
+  src="https://[your-github-username].github.io/[your-repo-name]/" 
   width="100%" 
   height="800px" 
   frameborder="0" 
@@ -44,3 +59,9 @@ After deployment, add this iframe to your WordPress page:
 ```
 
 You can adjust the height as needed for your quiz layout.
+
+## Troubleshooting
+
+- If you see a blank page, check browser console for path errors
+- Make sure all image paths use relative URLs
+- Verify your repository name is correctly set in the homepage URL
