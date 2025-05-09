@@ -18,7 +18,7 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/results/florence" element={<ResultsRouter destination="florence" />} />
-        <Route path="/results/greece" element={<ResultsRouter destination="kyoto" />} />
+        <Route path="/results/greece" element={<ResultsRouter destination="greece" />} />
         <Route path="/results/paris" element={<ResultsRouter destination="paris" />} />
         <Route path="/results/patagonia" element={<ResultsRouter destination="patagonia" />} />
         <Route path="/results/morocco" element={<ResultsRouter destination="morocco" />} />
